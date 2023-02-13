@@ -31,22 +31,20 @@
         <img src="./assets/lasagna.jpg" alt="lasagna">
         <figcaption>Cats <i>love</i> lasagna</figcaption>
       </figure>
-    </section>
-    <section>
-      <h2>Cat lists</h2>
-      <h3>Things cats hate:</h3>
-      <ul>
+      <h3>Top 3 things cats hate:</h3>
+      <ol>
         <li>flea treatment</li>
         <li>thunder</li>
         <li>other cats</li>
-      </ul>
+      </ol>
       <figure>
         <img src="./assets/cats.jpg" alt="cats">
-        <figcaption>Cats <b>hate</b> other cats.</figcaption>
+        <figcaption>Cats <b>hates</b> other cats.</figcaption>
       </figure>
     </section>
     <section>
-      <form action="/someAPI" method="POST">
+      <h2>Cats Forms</h2>
+      <form action="/someAPI" method="post">
         <fieldset>
           <legend>
             Is your cat an indoor or outdoor cat?
@@ -62,21 +60,24 @@
           <legend>
             What's your cat's personality?
           </legend>
-          <label for="personality">
+          <label for="Loving">
             <input id="Loving" type="checkbox" name="personality" value="Loving" checked />Loving
           </label>
-          <label for="personality">
+          <label for="Lazy">
             <input id="Lazy" type="checkbox" name="personality" value="Lazy" />Lazy
           </label>
-          <label for="personality">
+          <label for="Energetic">
             <input id="Energetic" type="checkbox" name="personality" value="Energetic" />Energetic
           </label>
         </fieldset>
-        <input type="text" name="catphotourl" placeholder="cat photo URL" requried>
+        <input type="text" name="catphotourl" placeholder="cat photo URL" requried />
         <button type="submit">Submit</button>
       </form>
     </section>
   </main>
+  <footer>
+    <p>No Copyright - <a href="freeCodeCamp.org">freeCodeCamp.org</a></p>
+  </footer>
 </body>
 
 </html>
